@@ -1,0 +1,1 @@
+execute usp_2_Class_To_Track @track_name = 'Other', @course_title = 'Automating Execution Plan Analysis'

@@ -1,0 +1,5 @@
+execute dbo.usp_1_Add_Track @name = 'DBA' , @topic = 'Databases'
+execute dbo.usp_1_Add_Track @name = 'Development' , @topic = 'Programming'
+execute dbo.usp_1_Add_Track @name = 'BI' , @topic = 'Business Intelligence'
+execute dbo.usp_1_Add_Track @name = 'Performance Optimization' , @topic = 'Performance'
+execute dbo.usp_1_Add_Track @name = 'Other' , @topic = 'Other'
