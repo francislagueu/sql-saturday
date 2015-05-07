@@ -1,14 +1,3 @@
--- ================================================
--- Template generated from Template Explorer using:
--- Create Procedure (New Menu).SQL
---
--- Use the Specify Values for Template Parameters 
--- command (Ctrl-Shift-M) to fill in the parameter 
--- values below.
---
--- This block of comments will not be included in
--- the definition of the procedure.
--- ================================================
 SET QUOTED_IDENTIFIER OFF
 GO
 SET ANSI_NULLS OFF
@@ -19,7 +8,7 @@ CREATE PROCEDURE [dbo].[usp_1_Add_Track]
 AS
 BEGIN TRY
 BEGIN TRAN
-	INSERT INTO Track(name, topic) 
+	INSERT INTO Track(name, topic)
 		OUTPUT Inserted.name, Inserted.topic
 	VALUES (@name, @topic)
 COMMIT TRAN
